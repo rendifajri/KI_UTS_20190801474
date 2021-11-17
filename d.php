@@ -1,6 +1,6 @@
 <?php
 session_start();
-$_SESSION['token'] = bin2hex(random_bytes(32));
+$_SESSION['token'] = bin2hex(random_bytes(32));//pembuatan token dan memasukan pada session
 $token = $_SESSION['token'];
 ?>
 <html>
