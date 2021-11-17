@@ -1,0 +1,1 @@
+B. bcrypt pada PHP merupakan one way password atau hash, jadi password atau yang sudah di-hash, tidak akan bisa dikembalikan atau di-decrypt. Karena text sudah dicincang dan setiap kali di-hash, akan mengembalikan text hash yang berbeda. Password hanya bisa diverifikasi atau dicek, password yang diinput sama dengan password yang sudah di-hash atau tidak
